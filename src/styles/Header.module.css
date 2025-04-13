@@ -1,0 +1,47 @@
+/* src/styles/Header.module.css */
+.header {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: #1f2937;
+}
+
+nav {
+    margin-top: 0.5rem;
+}
+
+nav a {
+    margin: 0 0.5rem;
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.25rem 0;
+}
+
+nav a:hover {
+    color: #2563eb;
+}
+
+.active {
+    font-weight: bold;
+    color: #1d4ed8;
+    /* Blue-700 */
+    border-bottom: 2px solid #1d4ed8;
+}
+
+nav a {
+    margin: 0 0.5rem;
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.25rem 0;
+}

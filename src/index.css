@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+body {
+  background-color: #f1f5f9;
+  /* light gray background */
+  color: #1f2937;
+  /* dark slate text */
+}
